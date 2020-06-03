@@ -95,9 +95,9 @@ class CPerceptron :
                 correct += 1
         return correct / float(len(actual)) *100.0
 
-#Run the program by typing python MLss3.py <input filename> <output filename> <number of features>
+#Run the program by typing python Perceptron.py <input filename> <output filename> <number of features>
 if len(sys.argv) != 4:
-    print("usage:python MLss3.py <input filename> <output filename> <number of features> ")
+    print("usage:python Perceptron.py <input filename> <output filename> <number of features> ")
     sys.exit(0)
 else:
     input_file = sys.argv[1]
